@@ -6,9 +6,8 @@
 **Facebook:** https://www.facebook.com/hisham.chisti.9
 
 ## Files
-- `index.html` — the whole website (one page, mobile + desktop)
-- `style.css` — all styling, animations and responsive rules
-- `script.js` — mobile menu, scroll animations, counters, mortgage calculator, callback form
+- `index.html` — **THE website (updated Nov 20, 2026, iOS 26 Liquid Glass version).** This is now a single self-contained file exported from the exact review/preview site Mirza approved — all CSS, JS and images are inside it. For GoDaddy, upload ONLY this file. It is identical to the Muse preview, pixel for pixel.
+- `style.css` / `script.js` — the earlier split-file version. The current `index.html` does NOT use them; kept only as a reference/backup. Do not upload them to GoDaddy.
 - `assets/hisham-portrait.png` — Hisham's cut-out portrait (hero)
 - `assets/hisham-card.png` — business-card style portrait (About)
 - `assets/realty21-logo.png` — Realty 21 logo
@@ -16,7 +15,7 @@
 ## How to put it live on GoDaddy
 1. In GoDaddy, open the hosting for hishamchisti.com (or buy Web Hosting / cPanel).
 2. Open File Manager → `public_html`.
-3. Upload `index.html`, `style.css`, `script.js` and the whole `assets` folder (keep the folder structure).
+3. Upload ONLY `index.html` (it is self-contained — no other files needed).
 4. Make sure the domain points to that hosting (GoDaddy does this automatically for its own hosting).
 5. Turn on the free SSL certificate in GoDaddy (Security → SSL) so the site opens as https://.
 6. Open https://www.hishamchisti.com and check desktop + phone.
